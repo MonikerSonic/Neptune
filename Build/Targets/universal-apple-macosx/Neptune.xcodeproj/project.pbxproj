@@ -3758,7 +3758,7 @@
 		F912B6870B8EB12700C1E90D /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0620;
+				LastUpgradeCheck = 0730;
 				TargetAttributes = {
 					E40D8B9B1AD86D3A0041A617 = {
 						CreatedOnToolsVersion = 6.2;
@@ -6088,6 +6088,7 @@
 					UIKit,
 					"-laxTLS",
 				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.axiomatic.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = Neptune;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
@@ -6142,6 +6143,7 @@
 					UIKit,
 					"-laxTLS",
 				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.axiomatic.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = Neptune;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
@@ -6169,6 +6171,7 @@
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1.1.8;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
@@ -6196,6 +6199,7 @@
 					SystemConfiguration,
 					"-laxTLS",
 				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.axiomatic.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = Neptune;
 				SDKROOT = macosx;
 				SKIP_INSTALL = YES;
@@ -6222,6 +6226,7 @@
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COMBINE_HIDPI_IMAGES = YES;
 				COPY_PHASE_STRIP = NO;
 				CURRENT_PROJECT_VERSION = 1.1.8;
 				DEFINES_MODULE = YES;
@@ -6249,6 +6254,7 @@
 					SystemConfiguration,
 					"-laxTLS",
 				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.axiomatic.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = Neptune;
 				SDKROOT = macosx;
 				SKIP_INSTALL = YES;
@@ -6277,7 +6283,6 @@
 		E47C65541B1E1ADA00BBDDD6 /* Release-NoCrypto */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
 				GCC_PREPROCESSOR_DEFINITIONS = (
@@ -6427,6 +6432,7 @@
 					"-framework",
 					UIKit,
 				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.axiomatic.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = Neptune;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
@@ -6454,6 +6460,7 @@
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COMBINE_HIDPI_IMAGES = YES;
 				COPY_PHASE_STRIP = NO;
 				CURRENT_PROJECT_VERSION = 1.1.8;
 				DEFINES_MODULE = YES;
@@ -6480,6 +6487,7 @@
 					"-framework",
 					SystemConfiguration,
 				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.axiomatic.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = Neptune;
 				SDKROOT = macosx;
 				SKIP_INSTALL = YES;
@@ -7023,9 +7031,9 @@
 		E47C65861B1E211C00BBDDD6 /* Debug-NoCrypto */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_TESTABILITY = YES;
 				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PREPROCESSOR_DEFINITIONS = (
@@ -7177,6 +7185,7 @@
 					"-framework",
 					UIKit,
 				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.axiomatic.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = Neptune;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
@@ -7203,6 +7212,7 @@
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1.1.8;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
@@ -7229,6 +7239,7 @@
 					"-framework",
 					SystemConfiguration,
 				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.axiomatic.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = Neptune;
 				SDKROOT = macosx;
 				SKIP_INSTALL = YES;
@@ -7877,9 +7888,9 @@
 		F912B6890B8EB12700C1E90D /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_TESTABILITY = YES;
 				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PREPROCESSOR_DEFINITIONS = (
@@ -7926,7 +7937,6 @@
 		F912B68A0B8EB12700C1E90D /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
 				GCC_PREPROCESSOR_DEFINITIONS = (
